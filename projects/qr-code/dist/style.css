@@ -1,0 +1,28 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--light-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: 15px;
+}
+
+.container {
+    height: 45%;
+    width: 25%;
+    background-color: var(--white);
+    border-radius: 10px;
+}
