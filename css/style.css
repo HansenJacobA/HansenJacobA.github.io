@@ -1,3 +1,164 @@
+:root {
+    --green: #B2AF73;
+    --orange: #DB663D;
+    --orange-brown: #FCDCBF;
+    --dark-brown: #4E393A;
+    --light-brown: #6B4F3E;
+    --white: #f7f8fa;
+    --black: #333;
+    --font-size: 1.3rem;
+    --gill: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    --gill-mt: 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    --calibri: 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #333;
+    padding: 0;
+    margin: 0;
+    font-family: var(--gill);
+    background-color: var(--dark-brown);
+    color: var(--white);
+    font-size: var(--font-size);
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+a {
+    color: var(--white);
+}
+
+a:hover {
+    color: var(--orange);
+    text-decoration: none;
+}
+
+#intro {
+    text-align: center;
+    padding: 4rem 1rem 10rem 1rem;
+    margin: 0 auto;
+    background-color: var(--light-brown);
+}
+
+#intro p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.name {
+    font-family: var(--gill-mt);
+}
+
+.name span {
+    font-family: var(--calibri);
+    font-size: 4rem;
+    color: var(--green);
+    display: block;
+}
+
+#intro h2 {
+    font-size: 4rem;
+    font-weight: normal;
+}
+
+#projects {
+    padding: 4rem 1rem;
+    background-color: var(--orange-brown);
+    color: var(--black);
+}
+
+#projects a {
+    color: var(--orange);
+}
+
+#projects ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem;
+    font-size: 1rem;
+}
+
+#contact {
+    text-align: center;
+    margin: 0 auto;
+    padding: 3rem 0;
+    background-color: var(--green);
+}
+
+#contact a {
+    font-size: 4rem;
+}
+
+nav {
+    font-size: 80%;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+}
+
+nav li:first-child {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    font-size: 80%;
+    padding: 3rem 0;
+    background-color: var(--dark-brown);
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 2rem 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 3rem;
+}
+
+footer a {
+    display: block;
+}
+
+.section-divider {
+    background-color: var(--orange);
+    height: 2px;
+}
+
+@media (prefers-color-scheme: dark) {
+
+    nav,
+    #intro,
+    #projects,
+    #contact,
+    footer {
+        background-color: var(--black);
+        color: var(--white);
+    }
 }
