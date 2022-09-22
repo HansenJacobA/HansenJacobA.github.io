@@ -36,6 +36,7 @@ Currently on the path to completing all courses in Front End Masters and buildin
 
 #### Frontend
 - React
+- React Native
 - Javascript
 - CSS
 - HTML
@@ -44,6 +45,8 @@ Currently on the path to completing all courses in Front End Masters and buildin
 #### Utilities
 - Jest
 - Morgan
+- Expo
+- Module Pattern 👌
 
 ### What I learned
 
