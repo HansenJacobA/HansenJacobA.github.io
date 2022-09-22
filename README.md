@@ -17,9 +17,7 @@ This is an ever evolving portfolio!
 
 ## Overview
 
-### Screenshot
-
-![](./screenshot.jpg)
+All personal projects should be described and made accessable throughout this portfolio.
 
 ### Links
 
@@ -27,14 +25,37 @@ This is an ever evolving portfolio!
 
 ## My process
 
-### Built with
+Currently on the path to completing all courses in Front End Masters and building the related projects of each course.
+
+### Tech used in projects
+#### Backend
+- Node.js
+- GraphQL
+- Apollo Server
+- Express
+
+#### Frontend
+- React
+- Javascript
+- CSS
+- HTML
+- Zustand
+
+#### Utilities
+- Jest
+- Morgan
 
 ### What I learned
 
+Never stop learning. 
+
 ### Continued development
+
+Learn everything.
 
 ### Useful resources
 
+- [Frontend Masters](https://frontendmasters.com/)
 - [The Markdown Guide](https://www.markdownguide.org/)
 
 ## Author
@@ -44,3 +65,5 @@ This is an ever evolving portfolio!
 - [GitHub](https://github.com/HansenJacobA)
 
 ## Acknowledgments
+
+Ever grateful for all the people I have met throughout this journey.
