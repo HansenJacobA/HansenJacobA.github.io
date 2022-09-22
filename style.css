@@ -69,6 +69,7 @@ a:hover {
 }
 
 #projects {
+    text-align: center;
     padding: 4rem 1rem;
     background-color: var(--orange-brown);
     color: var(--black);
