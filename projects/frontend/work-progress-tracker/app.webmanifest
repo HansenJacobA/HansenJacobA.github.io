@@ -1,7 +1,7 @@
 {
     "name": "Work Progress Tracker",
     "short_name": "Tworker",
-    "start_url": "./?utm_source=pwa",
+    "start_url": "./dist",
     "theme_color": "#2C5159",
     "scope": "./",
     "display": "standalone",
@@ -15,6 +15,12 @@
             "src": "icons/icon-1024.png",
             "sizes": "1024x1024",
             "type": "image/png"
+        },
+        {
+            "src": "icons/maskable_icon.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
         }
     ],
     "description": "This app lets you easily store work accomplishments",
