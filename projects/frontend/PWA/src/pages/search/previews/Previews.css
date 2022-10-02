@@ -1,0 +1,34 @@
+.previews {
+    height: calc(8rem + 1vw);
+    width: calc(17rem + 1vw);
+    font-size: 16px;
+    overflow-x: scroll;
+    margin-bottom: 2rem;
+    background-color: var(--blue);
+    border-radius: 5px;
+    text-align: left;
+    padding: 10px;
+}
+
+.previews:hover {
+    background-color: var(--teal);
+}
+
+.preview-link {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.previews label {
+    display: block;
+    font-weight: bold;
+}
+
+.previews p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1em;
+    border-bottom: solid 1px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
