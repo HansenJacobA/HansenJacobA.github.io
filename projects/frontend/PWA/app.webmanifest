@@ -1,7 +1,7 @@
 {
     "name": "Work Progress Tracker",
-    "short_name": "Progress",
-    "start_url": "./dist",
+    "short_name": "Tworker",
+    "start_url": "./",
     "theme_color": "#2C5159",
     "scope": "./",
     "display": "standalone",
