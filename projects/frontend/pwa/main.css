@@ -20,7 +20,6 @@
 .home-buttons button {
     width: calc(7rem + 1vw);
     height: calc(2rem + 1vw);
-    color: var(--navy);
 }
 .form {
     display: flex;
@@ -57,7 +56,6 @@
 
 .form-button {
     text-decoration: none;
-    color: var(--navy);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -80,12 +78,10 @@
 .search-input {
     display: inline-block;
     justify-content: center;
-    width: 70vw;
 }
 
 .search button {
     text-decoration: none;
-    color: var(--navy);
 }
 
 .search-button {
